@@ -19,21 +19,21 @@ _This website is a demonstration of using CSS styles and practices including cen
 
 ## Specs
 
-_The application will display a single-page site that showcases a product for sale._
+_The site will display a single-page site that showcases a product for sale._
 
-_The application includes at least one centered element._
+_The site includes at least one centered element._
 * _Example: Tents-in-action body text is centered._
 
-_The application includes a list or summary of features._
-* _Example: Product details list is inlcuded._
+_The site includes a list or summary of features._
+* _Example: Product details list is included._
 
-_The application includes one large image with an absolutely positioned caption._
-* _Example:_
+_The site includes one large image with an absolutely positioned caption._
+* _Example: The text, price and button section is absolutely positioned on hero image._
 
-_The application includes one table styled with CSS._
-* _Example: Materials and measurements tables is included._
+_The site includes one table styled with CSS._
+* _Example: Materials and measurements table is included._
 
-_The application includes a gallery of images._
+_The site includes a gallery of images._
 * _Example: Gallery of smaller images is included._
 
 ## CSS Elements Used

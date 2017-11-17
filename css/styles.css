@@ -24,6 +24,25 @@ body {
   padding-right: 10px;
 }
 
+.nav ul li:hover {
+  background-color: #A7C4A0;
+}
+
+button {
+  font-size: 15px;
+  background-color: white;
+  color: black;
+  border: 2px solid #C2EABA;
+  transition-duration: 0.5s;
+  font-family: 'Barlow Condensed', sans-serif;
+  float:right;
+}
+
+button:hover {
+  background-color: #A7C4A0;
+  color: white;
+}
+
 .hero {
   clear: both;
 }
@@ -49,8 +68,17 @@ body {
   width: 650px;
 }
 
+.hero-text ul {
+  list-style: none;
+}
 
-.hero-text h3:hover {
+.hero-text ul li {
+  display: inline;
+  margin-right: 40px;
+  font-size: 20px;
+}
+
+.hero-text ul li:hover {
   color: black;
 }
 
@@ -63,10 +91,11 @@ body {
 }
 
 .gallery h2 {
-  font-size: 40px;
+  font-size: 45px;
   margin-top: 20px;
   margin-left: 20px;
   padding-top: 10px;
+  color: #A7C4A0;
 }
 
 .features-content p:first-child:first-letter {
@@ -83,6 +112,7 @@ body {
   text-align: left;
   position: relative;
   width: 50%;
+  height: auto;
   padding-left: 20px;
   padding-right: 20px;
   margin: 10px;
@@ -151,4 +181,19 @@ th:nth-child(1) {
 
 .reviews {
   clear: both;
+  height: 10em;
+  position: relative;
+  display: block;
+  background-color: #8F8389;
+}
+
+.reviews p {
+  margin: 0;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
 }
