@@ -4,6 +4,7 @@
 
 body {
   font-family: 'Barlow Condensed', sans-serif;
+  /*background-color: #E6EFE9;*/
 }
 
 .nav {
@@ -25,29 +26,32 @@ body {
 
 .hero {
   clear: both;
-  position: relative;
-}
-
-.hero img {
-  /*float: left;*/
-  /*width: 50%;*/
-  /*position: relative;*/
 }
 
 #hero {
-  width: 50%;
+  width: 100%;
   border: 1px solid black;
+  height: 500px;
+  object-fit: cover;
 }
 
 .hero-text {
-  font-size: 20px;
-  float: right;
-  background-color: #C2EABA;
+  font-size: 15px;
+  color: white;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  padding: 30px;
-  /*transform: translate(-50%, -50%)*/
+  top: 40%;
+  left: 15px;
+  padding: 20px;
+  background-color: #8F8389;
+  box-shadow: 4px 4px 10px black;
+  border: 1px solid black;
+  height: 230px;
+  width: 650px;
+}
+
+
+.hero-text h3:hover {
+  color: black;
 }
 
 .gallery {
@@ -58,11 +62,29 @@ body {
   height: 450px;
 }
 
+.gallery h2 {
+  font-size: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+.features-content p:first-child:first-letter {
+  color: #A7C4A0;
+  float: left;
+  font-size: 80px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
 .features-content {
   text-align: left;
   position: relative;
   width: 50%;
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin: 10px;
 }
 
@@ -72,16 +94,12 @@ body {
   object-fit: cover;
 }
 
-/*.top-images .bottom-images {
-  float: left;
-}*/
-
 .whole-gallery {
   width: 50%;
   float: left;
   position: relative;
-  left: 50%;
-  top: -280px;
+  left: 55%;
+  top: -365px;
 }
 
 .specs {
