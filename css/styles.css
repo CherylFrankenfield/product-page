@@ -47,37 +47,70 @@ body {
   clear: both;
   background-color: #E6EFE9;
   position: relative;
+  width: 100%;
 }
 
 .features-content {
-  float: left;
   text-align: center;
-  /*margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)*/
+  position: relative;
+  width: 50%;
+  padding: 20px;
 }
 
 .gallery img {
-  float: right;
   width: 20%;
-  height: auto;
+  height: 20%;
+}
+
+.top-images .bottom-images {
+  width: 50%;
 }
 
 .specs {
   clear: both;
+  width: 100%;
+  background-color: #E6EFE9;
 }
 
 .details {
-  float: left;
-  background-color: #C2EABA;
+  width: 50%;
+  padding: 20px;
+  position: relative;
 }
 
-.table-contents {
-  float: right;
-  background-color: green;
+table {
+  background-color: #A7C4A0;
+  position: relative;
+  left: 50%;
+  top: -200px;
+  width: 50%;
+  border: 2px solid black;
+}
+
+thead {
+  text-align: left;
+}
+
+td {
+  padding: 10px;
+  border-top: 1px solid black;
+}
+
+td:nth-child(1) {
+  border-right: 1px solid black;
+}
+
+tr {
+  border: 1px solid black;
+}
+
+
+th {
+  padding: 10px;
+}
+
+th:nth-child(1) {
+  border-right: 1px solid black;
 }
 
 .reviews {
