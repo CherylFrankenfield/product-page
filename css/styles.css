@@ -5,3 +5,81 @@
 body {
   font-family: 'Barlow Condensed', sans-serif;
 }
+
+.nav {
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+
+.nav ul {
+  list-style: none;
+  font-size: 20px;
+  display: inline;
+}
+
+.nav li {
+  float: left;
+  padding-right: 10px;
+}
+
+.hero {
+  clear: both;
+  position: relative;
+}
+
+.hero img {
+  float: left;
+  width: 50%;
+}
+
+.hero-text {
+  float: right;
+  background: yellow;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 30px;
+  /*transform: translate(-50%, -50%)*/
+}
+
+.gallery {
+  clear: both;
+  background-color: #E6EFE9;
+  position: relative;
+}
+
+.features-content {
+  float: left;
+  text-align: center;
+  /*margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)*/
+}
+
+.gallery img {
+  float: right;
+  width: 20%;
+  height: auto;
+}
+
+.specs {
+  clear: both;
+}
+
+.details {
+  float: left;
+  background-color: #C2EABA;
+}
+
+.table-contents {
+  float: right;
+  background-color: green;
+}
+
+.reviews {
+  clear: both;
+}

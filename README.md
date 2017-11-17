@@ -11,7 +11,7 @@ _This website is a demonstration of using CSS styles and practices including cen
 ## Setup/Installation Requirements
 
 * Navigate to your terminal.
-* Perform Git clone command on the repo [here.](git link)
+* Perform Git clone command on the repo [here.](https://github.com/CherylFrankenfield/product-page.git)
 * Perform Git atom . command to open all files in repo.
 * View index.html in browser.
 * No other setup or install necessary.
