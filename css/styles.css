@@ -29,13 +29,20 @@ body {
 }
 
 .hero img {
-  float: left;
+  /*float: left;*/
+  /*width: 50%;*/
+  /*position: relative;*/
+}
+
+#hero {
   width: 50%;
+  border: 1px solid black;
 }
 
 .hero-text {
+  font-size: 20px;
   float: right;
-  background: yellow;
+  background-color: #C2EABA;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -48,22 +55,33 @@ body {
   background-color: #E6EFE9;
   position: relative;
   width: 100%;
+  height: 450px;
 }
 
 .features-content {
-  text-align: center;
+  text-align: left;
   position: relative;
   width: 50%;
   padding: 20px;
+  margin: 10px;
 }
 
 .gallery img {
-  width: 20%;
-  height: 20%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
-.top-images .bottom-images {
+/*.top-images .bottom-images {
+  float: left;
+}*/
+
+.whole-gallery {
   width: 50%;
+  float: left;
+  position: relative;
+  left: 50%;
+  top: -280px;
 }
 
 .specs {
