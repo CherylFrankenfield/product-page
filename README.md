@@ -1,6 +1,6 @@
 # Tentaur Tent Product Page
 
-##### CSS - A tent product page website
+##### CSS - A tent product page
 
 #### By Cheryl Frankenfield, 11/17/17
 
@@ -15,7 +15,7 @@ _This website is a demonstration of using CSS styles and practices including cen
 * Perform Git atom . command to open all files in repo.
 * View index.html in browser.
 * No other setup or install necessary.
-* Or [click here](link) to view in browser now.
+* Or [click here](https://cherylfrankenfield.github.io/product-page) to view in browser now.
 
 ## Specs
 
@@ -49,7 +49,7 @@ _The site includes a gallery of images._
 | Pseudo-Class        | This property allows you to target complete elements or states. (id or a:hover) | In this page, I used a hover color style on my button. |                              
 | Clear-Fix           | This property allows you to fix collapsed parents when you float elements.| I used the clear:both; property and overflow:auto; on the page to clear the floats I used. |            
 | Positional Selector | This property allows you to select elements based on position. (:nth-child(2)) | I used the nth-child selector on the table data and table header elements to create a border style.|
-| Selector Combinator | This property allows you to combine selectors. (child selector (>) ) | Here I used a descendent selector on class .hero-text with the descendent of <ul> and descendent of <li>:hover. |
+| Selector Combinator | This property allows you to combine selectors. (child selector (>) ) | Here I used a descendent selector on class .hero-text with the descendent of ul and descendent of li:hover. |
 
 ## Known Bugs
 
